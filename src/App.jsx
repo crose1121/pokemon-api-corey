@@ -1,10 +1,10 @@
-import PokemonApi from './components/PokemonApi'
+import PokemonApiAxios from './components/PokemonApiAxios'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <PokemonApi></PokemonApi>
+      <PokemonApiAxios></PokemonApiAxios>
     </div>
   );
 }
